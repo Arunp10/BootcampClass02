@@ -34,4 +34,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Deploy to Surge
-        run: surge ./build squeamish-band.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build  trashy-fifth.surge.sh --token ${{ secrets.SURGE_TOKEN }}
