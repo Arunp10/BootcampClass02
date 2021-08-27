@@ -34,4 +34,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Deploy to Surge
-        run: surge ./build absorbing-insurance.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge --domian absorbing-insurance.surge.sh --token ${{ secrets.SURGE_TOKEN }}
